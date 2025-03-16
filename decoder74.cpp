@@ -31,6 +31,7 @@ vector<int> ham(vector<int>& received) {
 }
 
 int main() {
+    cout << "Put here 7 coded bits: \n";
     string res;
     cin >> res;
     vector<int> received;
