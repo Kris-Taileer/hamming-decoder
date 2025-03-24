@@ -21,6 +21,7 @@ int calcSyn(const vector<int>& received) {
 
 int main() {
     string input;
+    cout << "put here your 15 coded bits:\n"
     cin >> input;
     vector<int> received(15);
     for (int i = 0; i < 15; ++i) {
